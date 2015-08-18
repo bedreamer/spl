@@ -1,0 +1,24 @@
+import type
+import sys
+import time
+import socket
+
+demo={
+	key:"__key_name__",
+	value:0x878756
+}
+
+function demo(param,need) {
+	if ( param > need ) {
+		param = param << need;
+	} elif ( param >= need ) {
+		return param |= need;
+	} elif (1) {
+		return 1;
+	} else {
+		return demo;
+	}
+	return demo(-6.7 * pram++, need ^ param);
+}
+
+EXIT
