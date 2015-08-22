@@ -2,7 +2,7 @@
 #define _SPL_INCLUDED_H_
 
 typedef int token_t;
-typedef enum {
+typedef enum TOKEN {
     TOKEN_INVALID         = 0xFFFFFFFF,
     TOKEN_BEGIN           = 0xFFFFFFFE,
     TOKEN_E               = 0xFFFFFFFD,
@@ -33,9 +33,9 @@ typedef enum {
     TOKEN_OP_XOREQ        = TOKEN_OP | (256 + 10),
     TOKEN_OP_LSHIFT       = TOKEN_OP | (256 + 19),
     TOKEN_OP_LSHIFTEQ     = TOKEN_OP | (256 + 20),
-    TOKEN_OP_RSHIFT       = TOKEN_OP | (256 + 21), // 
-    TOKEN_OP_RSHIFTEQ     = TOKEN_OP | (256 + 22), // >>=
-    TOKEN_OP_ASSUME       = TOKEN_OP | (256 + 23), // =
+    TOKEN_OP_RSHIFT       = TOKEN_OP | (256 + 21),
+    TOKEN_OP_RSHIFTEQ     = TOKEN_OP | (256 + 22),
+    TOKEN_OP_ASSUME       = TOKEN_OP | (256 + 23),
     TOKEN_CMP             = 0x00004000,
     TOKEN_CMP_BG          = TOKEN_CMP | '>',
     TOKEN_CMP_LT          = TOKEN_CMP | '<',

@@ -4,8 +4,8 @@ import time
 import socket
 
 demo={
-	key:"__key_name__",
-	value:0x878756
+	key="__key_name__",
+	value=0x878756
 }
 
 function demo(param,need) {
