@@ -512,7 +512,7 @@ token_t sql_get_token(FILE *fp, char *text, size_t maxlen)
     }
     return t;
 }
-
+#if 0
 int spl_do_parase(const char *file)
 {
     char buff[1024];
@@ -581,3 +581,4 @@ int main()
     spl_do_parase("spl.txt");
     return 0;
 }
+#endif

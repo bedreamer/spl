@@ -89,6 +89,6 @@ struct spl_struct {
     struct spl_symbol *lib_var_symbols;
 };
 
-
+token_t sql_get_token(FILE *fp, char *text, size_t maxlen);
 
 #endif // _SPL_INCLUDED_H_

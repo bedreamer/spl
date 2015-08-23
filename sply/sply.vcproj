@@ -175,11 +175,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\sply.c"
+				RelativePath="..\spl\spl.c"
 				>
 			</File>
 			<File
-				RelativePath=".\stack.c"
+				RelativePath=".\sply.c"
 				>
 			</File>
 		</Filter>

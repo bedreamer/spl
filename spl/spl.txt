@@ -4,7 +4,7 @@ import time
 import socket
 
 demo={
-	key="__key_name__",
+	key="__key_na\"me__",
 	value=0x878756
 }
 
